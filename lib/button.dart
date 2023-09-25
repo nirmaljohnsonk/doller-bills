@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class IButton extends StatelessWidget {
-  const IButton({Key? key}) : super(key: key);
+class Button extends StatelessWidget {
+  const Button({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     Color secondaryColor = Colors.white;
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 0, vertical: 10),
+      margin: const EdgeInsets.fromLTRB(0, 0, 0, 5),
       padding: const EdgeInsets.all(10),
       decoration: const BoxDecoration(
         boxShadow: [
